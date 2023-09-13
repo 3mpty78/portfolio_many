@@ -1,0 +1,17 @@
+@import "./styles/home.css";
+@import "./styles/reset.css";
+@import "./styles/variables.css";
+
+@font-face {
+      font-family: "cormorant";
+      src: url(./assets/fonts/Cormorant-VariableFont_wght.ttf);
+}
+@font-face {
+      font-family: "outfit";
+      src: url(./assets/fonts/outfit.ttf);
+}
+
+* {
+      user-select: none;
+      scroll-behavior: smooth;
+}
