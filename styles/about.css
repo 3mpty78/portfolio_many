@@ -1,0 +1,56 @@
+#about {
+      height: auto;
+}
+#about h1 {
+      width: 100%;
+      font-family: "outfit";
+      font-size: 5em;
+      color: var(--white);
+      text-transform: uppercase;
+      text-shadow: 0 0 20px #060606;
+}
+#about h1 span {
+      color: transparent;
+      -webkit-text-stroke: 2px var(--purple);
+      text-shadow: none;
+}
+.about {
+      width: 90%;
+      height: 100vh;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.about .perso {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+}
+.perso .biographie {
+      width: 50%;
+      padding: 15px;
+      color: var(--white);
+      font-family: "outfit";
+      font-size: 22px;
+      line-height: 1.4;
+      font-weight: lighter;
+      text-align: justify;
+}
+.perso .biographie span {
+      color: var(--purple);
+}
+.perso img {
+      width: 400px;
+      height: 500px;
+      border-radius: 25px;
+      object-fit: cover;
+      filter: drop-shadow(0 0 20px #060606);
+      transform: rotate(-5deg);
+}
+.separator {
+      width: 90%;
+      height: 2px;
+      border-radius: 50%;
+      background: var(--purple);
+}
