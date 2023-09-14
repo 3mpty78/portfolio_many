@@ -55,6 +55,8 @@
       background: var(--purple);
 }
 
+/* Pro section */
+
 .pro {
       height: auto;
       width: 90%;
@@ -62,11 +64,71 @@
       display: flex;
       align-items: center;
       flex-flow: column nowrap;
-      border: 1px solid red;
 }
-.firstMission {
+.firstMission,
+.secondMission,
+.thirdMission,
+.fourthMission {
       position: relative;
-      height: 500px;
+      height: 100vh;
       width: 85%;
-      border: 1px solid greenyellow;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* border: 1px solid greenyellow; */
+}
+.pro h2 {
+      position: absolute;
+      top: 20%;
+      transform: translateY(-50%);
+      font-family: "outfit";
+      font-size: 3em;
+      color: var(--white);
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #060606;
+}
+.pro h2 span {
+      color: transparent;
+      -webkit-text-stroke: 2px var(--purple);
+      text-shadow: none;
+}
+.pro h3 {
+      position: absolute;
+      top: 35%;
+      transform: translateY(-75%);
+      font-family: "outfit";
+      font-size: 2em;
+      color: var(--white);
+      text-shadow: 0 0 10px #060606;
+}
+.pro h3 span {
+      color: var(--purple);
+}
+.pro .image {
+      width: 100%;
+      height: 50vh;
+      border-radius: 25px;
+      border: 2px solid var(--purple);
+      box-shadow: 0 0 20px #060606;
+      overflow: hidden;
+}
+.image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: blur(10px) brightness(0.7);
+}
+.pro ul {
+      color: var(--white);
+      font-family: "outfit";
+      font-size: 20px;
+      width: 100%;
+      height: 30%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+}
+.pro ul span {
+      color: var(--purple);
+      font-style: italic;
 }
