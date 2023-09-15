@@ -155,7 +155,7 @@ textarea {
 .links a,
 .discord {
       font-family: "outfit";
-      font-size: 1em;
+      font-size: 14px;
       text-decoration: none;
       color: var(--white);
       font-style: italic;

@@ -1,5 +1,5 @@
 #projects {
-      height: 100vh;
+      height: auto;
 }
 #projects h1 {
       text-align: center;
@@ -13,4 +13,57 @@
       color: transparent;
       -webkit-text-stroke: 2px var(--purple);
       text-shadow: none;
+}
+.projects {
+      width: 75%;
+      height: 100%;
+}
+#projects iframe {
+      width: 100%;
+      height: 70vh;
+      border-radius: 25px;
+      box-shadow: 0 0 20px #090909;
+}
+#projects h2 {
+      color: var(--white);
+      font-family: "outfit";
+      font-size: 2em;
+}
+#projects h2 span {
+      color: transparent;
+      -webkit-text-stroke: 1px var(--purple);
+}
+.projet_1 {
+      margin-bottom: 5em;
+}
+.projet_1 p {
+      font-family: "outfit";
+      font-size: 1.2em;
+      text-align: justify;
+      line-height: 1.5em;
+      color: var(--white);
+}
+.projet_2 {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5em;
+}
+.projet_2 img {
+      width: 500px;
+      height: 70vh;
+      object-fit: cover;
+      border-radius: 25px;
+      filter: drop-shadow(0 0 10px #090909);
+}
+.projet_2 p {
+      width: 50%;
+      height: 100%;
+      color: var(--white);
+      font-family: "outfit";
+      font-size: 1.5em;
+      text-align: justify;
+      line-height: 1.5em;
 }
