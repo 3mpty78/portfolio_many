@@ -63,7 +63,10 @@
       height: 100%;
       color: var(--white);
       font-family: "outfit";
-      font-size: 1.5em;
+      font-size: 1.2em;
       text-align: justify;
       line-height: 1.5em;
+}
+#projects p span {
+      color: var(--purple);
 }
